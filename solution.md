@@ -80,14 +80,3 @@ This will:
 
 2. In a real browser environment, some of the browser fingerprinting techniques would work differently than they do in Node.js. A complete implementation would need to run in a browser or use a headless browser like Puppeteer.
 
-3. Shopee's security code changes frequently (2-5 times daily), so this implementation might need to be updated to match the latest version.
-
-## Recommendation for Production Use
-
-For a robust implementation that can withstand Shopee's frequent security updates, I recommend:
-
-1. Creating a browser extension or using a headless browser to run the actual Shopee security code.
-2. Intercepting the request to `/v2/shpsec/web/report` to capture the actual payload structure.
-3. Using the obtained `risk_token` for subsequent API requests.
-
-This approach would be more resilient to changes in Shopee's security implementation. 
