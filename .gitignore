@@ -1,0 +1,302 @@
+# Shopee Bot Detection Reverse Engineering Project
+# .gitignore
+
+# Node.js Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# Snowpack dependency directory
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Browser and Puppeteer specific
+.puppeteer/
+puppeteer-cache/
+chrome-user-data/
+browser-data/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Logs and debugging
+logs/
+*.log
+debug.log
+error.log
+access.log
+combined.log
+
+# Risk tokens and sensitive data
+tokens/
+*.token
+risk-tokens.json
+session-data.json
+cookies.json
+auth-data.json
+
+# Configuration files with sensitive data
+config/local.json
+config/production.json
+config/secrets.json
+.secrets
+credentials.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Project specific exclusions
+
+# Large obfuscated files (keep originals but ignore working copies)
+deobfuscate/*_working.js
+deobfuscate/*_temp.js
+deobfuscate/temp/
+deobfuscate/backup/
+
+# Test output and reports
+test-results/
+test-reports/
+coverage-reports/
+performance-reports/
+
+# Shopee specific data
+shopee-data/
+product-data/
+api-responses/
+captured-requests/
+
+# Security analysis files
+security-analysis/
+vulnerability-reports/
+penetration-test-results/
+
+# Reverse engineering artifacts
+disassembly/
+decompiled/
+analysis-output/
+
+# Browser profiles and user data
+chrome-profile/
+firefox-profile/
+browser-profiles/
+
+# Proxy and network tools
+proxy-logs/
+network-captures/
+*.pcap
+*.har
+
+# Documentation builds
+docs/build/
+docs/_build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Custom project exclusions
+# Add any project-specific files or directories that should be ignored
+
+# Keep important files (negative patterns)
+!deobfuscate/2.26.481.js
+!deobfuscate/2.26.481_deobfuscated.js
+!deobfuscate/deobfuscate.js
+!deobfuscate/decoder_*.js
+!readme.md
+!SOLUTION.md
+!package.json
+!package-lock.json 

@@ -1,0 +1,22 @@
+{
+  "name": "shopee-security-reverse-engineering",
+  "version": "1.0.0",
+  "description": "Reverse engineering of Shopee's bot detection mechanism",
+  "main": "shopee_api_client.js",
+  "scripts": {
+    "start": "node shopee_api_client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shopee",
+    "reverse-engineering",
+    "bot-detection"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "node-fetch": "^2.6.7",
+    "puppeteer": "^24.9.0"
+  }
+}
